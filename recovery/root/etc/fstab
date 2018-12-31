@@ -1,0 +1,10 @@
+/dev/block/mmcblk0p66 /system ext4 rw 0 0
+/dev/block/mmcblk0p67 /data ext4 rw 0 0
+/dev/block/mmcblk0p68 /vendor ext4 rw 0 0
+/dev/block/mmcblk0p65 /cache ext4 rw 0 0
+/dev/block/mmcblk0p28 /factory ext4 rw 0 0
+/dev/block/mmcblk0p56 /persist ext4 rw 0 0
+/dev/block/mmcblk0p62 /firmware vfat rw 0 0
+/dev/block/mmcblk0p60 /asusfw ext4 rw 0 0
+/dev/block/mmcblk1p1 /external_sd vfat rw 0 0
+ /usb-otg vfat rw 0 0

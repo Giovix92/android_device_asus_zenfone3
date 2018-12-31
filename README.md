@@ -2,6 +2,8 @@ Unified TWRP device tree for ASUS Zenfone 3 (ZE520KL/ZE552KL)
 ========================================================
 
 For building TWRP for Asus Zenfone 3 (ZE520KL and ZE552KL) only.
+Treble version.
+WIP PROJECT
 
 Manifest: 
 https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni/tree/twrp-8.1
