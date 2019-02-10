@@ -26,7 +26,7 @@ $(call inherit-product, device/asus/zenfone3/device.mk)
 $(call inherit-product, vendor/asus/zenfone3/zenfone3-vendor.mk)
 
 # Inherit some common Viper stuff.
-$(call inherit-product, vendor/viper/config/common.mk)
+$(call inherit-product, vendor/viper/config/common_full_phone.mk)
 
 PRODUCT_NAME := viper_zenfone3
 PRODUCT_DEVICE := zenfone3
