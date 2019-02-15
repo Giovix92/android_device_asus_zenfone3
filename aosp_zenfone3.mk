@@ -26,9 +26,9 @@ $(call inherit-product, device/asus/zenfone3/device.mk)
 $(call inherit-product, vendor/asus/zenfone3/zenfone3-vendor.mk)
 
 # Inherit some common Viper stuff.
-$(call inherit-product, vendor/viper/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/common.mk)
 
-PRODUCT_NAME := viper_zenfone3
+PRODUCT_NAME := aosp_zenfone3
 PRODUCT_DEVICE := zenfone3
 PRODUCT_BRAND := asus
 PRODUCT_MANUFACTURER := asus
@@ -36,6 +36,3 @@ PRODUCT_MANUFACTURER := asus
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
 PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.name
-
-# Its Official ViperOS
-VIPER_BUILD_TYPE := OFFICIAL

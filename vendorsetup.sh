@@ -1,1 +1,1 @@
-add_lunch_combo viper_zenfone3-userdebug
+add_lunch_combo aosp_zenfone3-userdebug
